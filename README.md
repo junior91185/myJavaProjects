@@ -1,4 +1,4 @@
 # myProjects
 Project 01 -> Infix Calculator
 
-| Lab06 -> Basic Webpage
+Lab06 -> Basic Webpage

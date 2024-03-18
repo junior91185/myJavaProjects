@@ -1,0 +1,11 @@
+Osa Idahor
+oidahor@u.rochester.edu
+
+This Java program implements Huffman coding, a compression algorithm that assigns variable-length codes to characters
+based on their frequencies. The main class, HuffmanSubmit, constructs a Huffman tree, encodes a given input file, and
+writes the encoded message and frequency map to separate output files. The decoding process reads the encoded message
+and frequency map, reconstructs the Huffman tree, and produces the original message. The UR_Node class represents nodes
+in the Huffman tree, implementing the Comparable interface for sorting based on frequency and character.
+The program provides a comprehensive demonstration of Huffman coding, illustrating the steps of encoding and decoding
+while showcasing the resulting compressed file and reconstructed original content. Users can easily apply this program
+to compress and decompress text files, gaining insight into the inner workings of the Huffman coding algorithm.

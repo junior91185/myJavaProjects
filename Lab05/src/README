@@ -1,9 +1,16 @@
-Osa Idahor
-oidahor@u.rochester.edu
+README
 
-In this lab, I worked on the Hash Table/Map ADT. Build a Linear Probing Hash Table.
-The UR_HashTable class serves as the foundational data structure for the hash table.
-It provides the core methods and structures for a basic hash table.
-The Main class is a concrete implementation of the UR_HashTable class, specializing it with
-specific key and value types. In this example, the class uses Integer keys and String values.
-It demonstrates how to use the hash table for common operations.
+Hash Tables
+This project demonstrates an implementation of such a hash table, including basic operations like 
+put, get, and delete, as well as utility functions to manage and interact with the data efficiently.
+
+Usage:
+Extend the UR_HashTable class to implement its abstract methods tailored to your specific requirements. 
+The provided Main class illustrates a basic extension, implementing linear probing for conflict resolution and showcasing 
+usage with integer keys and string values.
+
+Example usage in Main class:
+Main<Integer, String> hash = new Main<>(50);
+hash.put(26, "Sponge");
+hash.put(10, "Kerry");
+System.out.println(hash.get(10)); // Output: Kerry

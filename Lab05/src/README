@@ -1,0 +1,9 @@
+Osa Idahor
+oidahor@u.rochester.edu
+
+In this lab, I worked on the Hash Table/Map ADT. Build a Linear Probing Hash Table.
+The UR_HashTable class serves as the foundational data structure for the hash table.
+It provides the core methods and structures for a basic hash table.
+The Main class is a concrete implementation of the UR_HashTable class, specializing it with
+specific key and value types. In this example, the class uses Integer keys and String values.
+It demonstrates how to use the hash table for common operations.

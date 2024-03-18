@@ -1,13 +1,13 @@
 ReadMe
 
 Objective: 
-I must implement my own Lists, Stacks and Queues classes. For this project,
-I will need to write a Java program that reads in a series of infix expressions from a plain text file,
+I must implement my own Lists, Stacks, and Queues classes. For this project,
+I will need to write a Java program that reads a series of infix expressions from a plain text file,
 converts the expressions to postfix notation, evaluates the postfix expressions, and saves the resulting answers to a
 new text file.
 
 In my code, there are two main classes: URCalculator and ValidMoves. URCalculator reads expressions from an input file,
-processes tokens, and uses stacks and queues for the Shunting Yard algorithm. It handles various tokens, operators, and
+processes tokens, and uses stacks and queues for the Shunting Yard algorithm. It handles various tokens, and operators, and
 calculates results. ValidMoves defines methods for operator precedence and calculations, supporting multiple operators
 like arithmetic, comparison, equality, and logical operators.
 

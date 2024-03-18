@@ -1,6 +1,3 @@
-Osa Idahor
-oidahor@u.rochester.edu
-
 Objective: I must implement my own Lists, Stacks and Queues classes. For this project,
 I will need to write a Java program that reads in a series of infix expressions from a plain text file,
 converts the expressions to postfix notation, evaluates the postfix expressions, and saves the resulting answers to a

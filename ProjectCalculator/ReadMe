@@ -1,0 +1,22 @@
+## ReadMe
+
+# Objective: 
+
+I must implement my own Lists, Stacks and Queues classes. For this project,
+I will need to write a Java program that reads in a series of infix expressions from a plain text file,
+converts the expressions to postfix notation, evaluates the postfix expressions, and saves the resulting answers to a
+new text file.
+
+In my code, there are two main classes: URCalculator and ValidMoves. URCalculator reads expressions from an input file,
+processes tokens, and uses stacks and queues for the Shunting Yard algorithm. It handles various tokens, operators, and
+calculates results. ValidMoves defines methods for operator precedence and calculations, supporting multiple operators
+like arithmetic, comparison, equality, and logical operators.
+
+One notable obstacle I encountered and successfully overcame in my code was ensuring that the operations were being
+calculated correctly and at the right time during the execution of the Shunting Yard algorithm. This challenge primarily
+revolved around managing the order of operations, operator precedence, and handling both binary and unary operators
+effectively.
+
+All files: infix_expr_short.txt.txt, postfix_eval_short.txt, Queue, Stack, ValidMoves, URCalculator, OUTPUT.txt
+
+Extra Credit: Handling invalid expressions and/or expressions that cannot be evaluated

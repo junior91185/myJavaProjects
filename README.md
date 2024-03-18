@@ -1,4 +1,2 @@
-# myProjects
-Project 01 -> Infix Calculator
-
-Lab05 -> Hash Tables
+# All collection of my Java projects
+Linkedin: www.linkedin.com/in/osarieme-idahor-694b11221 
